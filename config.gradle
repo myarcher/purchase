@@ -1,0 +1,40 @@
+ext {
+    android = [
+            compileSdkVersion: 25,
+            buildToolsVersion: '25.0.2',
+            applicationId    : "com.commodity.purchase",
+            minSdkVersion    : 14,
+            targetSdkVersion : 25,
+            versionCode      : 1,
+            versionName      : "1.0.0"
+    ]
+
+    def dependVersion = [
+            android_v           : "25.3.1",
+            PhotoView_v         : "1.3.1",
+            PickerView_v        : "3.2.4",
+            MultiImageSelector_v: "1.2",
+            advancedluban_v     : "1.3.5"
+    ]
+
+    dependencies = [
+            "xutil"             : "org.xutils:xutils:3.5.0",
+            "fastjson"          : "com.alibaba:fastjson:1.1.67.android",
+            "permission"        : "com.yanzhenjie:permission:1.1.2",
+            "eventbus"          : "org.greenrobot:eventbus:3.0.0",
+            "design"            : "com.android.support:design:${dependVersion.android_v}",
+            "recyclerview"      : "com.android.support:recyclerview-v7:${dependVersion.android_v}",
+            "appcompat"         : "com.android.support:appcompat-v7:${dependVersion.android_v}",
+            "PhotoView"         : "com.github.chrisbanes:PhotoView:${dependVersion.PhotoView_v}",
+            "PickerView"        : "com.contrarywind:Android-PickerView:${dependVersion.PickerView_v}",
+            "MultiImageSelector": "com.github.lovetuzitong:MultiImageSelector:${dependVersion.MultiImageSelector_v}",
+            "advancedluban"     : "me.shaohui.advancedluban:library:${dependVersion.advancedluban_v}",
+            "refreshlayout"     : "cn.bingoogolapple:bga-refreshlayout:1.1.8@aar",
+            "AECrashHandler"    : "com.mauiie.aech:AECrashHandler:0.0.1",
+            "meiqiasdk"         : "com.meiqia:meiqiasdk:3.4.3@aar",
+            "multidex"          : "com.android.support:multidex:1.0.1",
+            "okhttp": "com.squareup.okhttp3:okhttp:3.5.0",
+            "banner": "com.github.dongjunkun:BannerLayout:1.0.6"
+    ]
+
+}

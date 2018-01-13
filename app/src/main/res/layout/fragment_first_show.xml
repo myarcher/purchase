@@ -1,0 +1,32 @@
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/load_bg_img"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:adjustViewBounds="true"
+        android:scaleType="fitXY"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <TextView
+            android:gravity="center"
+            android:textSize="@dimen/dimen_24px"
+            android:textColor="@color/main_color"
+            android:text=""
+            android:id="@+id/enter_btn"
+            android:layout_width="@dimen/dimen_220px"
+            android:layout_height="@dimen/dimen_50px"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="@dimen/dimen_45px"
+            android:background="@android:color/transparent"/>
+    </RelativeLayout>
+
+
+</FrameLayout>
